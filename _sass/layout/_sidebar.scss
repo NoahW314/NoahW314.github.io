@@ -197,6 +197,8 @@
   @media screen and (min-width: 1024px) {
     display: block;
   }
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .author__pronouns {
