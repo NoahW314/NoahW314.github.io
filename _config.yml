@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Noah Walker"
 title_separator          : "-"
 name                     : &name "Noah Walker"
@@ -23,7 +23,7 @@ repository               : "NoahW314/NoahW314.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Walker-Noah.png"
   name             : "Noah Walker"
   bio              : "Graduate student at the University of Nebraska-Lincoln"
   # employer         : "University of Nebraska-Lincoln"

@@ -10,12 +10,9 @@ main:
 
   - title: "Teaching"
     url: /teaching/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
     
   - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: /files/Noah_Walker_CV.pdf
+
+  - title: "Other"
+    url: /other/
