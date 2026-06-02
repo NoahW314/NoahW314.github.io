@@ -41,8 +41,16 @@ author:
 publication_category:
   articles:
     title: 'Journal Articles'    
+  survey:
+    title: 'Survey Papers'
   notes:
     title: 'Notes'
+
+talk_category:
+  invited:
+    title: "Invited Talks"
+  seminar:
+    title: "UNL Seminar Talks"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -50,7 +58,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -178,9 +185,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
