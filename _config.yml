@@ -47,10 +47,12 @@ publication_category:
     title: 'Notes'
 
 talk_category:
-  invited:
-    title: "Invited Talks"
+  other:
+    title: ""
   seminar:
     title: "UNL Seminar Talks"
+  undergrad:
+    title: "Talks for Undergrads"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

@@ -35,6 +35,9 @@ author_profile: false
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
+      {% if category[1].title == "" %}
+        {% assign title_shown = true %}
+      {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
