@@ -18,6 +18,8 @@
     <p class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a class="archive__item-title-text" href="{{ post.link }}">{{ title }}</a>
+      {% elsif post.internal_link %}
+        <a class="archive__item-title-text" href="{{base_path}}{{ post.internal_link }}">{{ title }}</a>
       {% else %}
         <span class="archive__item-title-text">{{ title }}</span>
       {% endif %}
