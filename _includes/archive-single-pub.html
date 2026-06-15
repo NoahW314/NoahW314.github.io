@@ -17,9 +17,9 @@
 
     <p class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a class="archive__item-title-text" href="{{ post.link }}">{{ title }}</a>
+        <a class="archive__item-title-text" href="{{ post.link }}" target="_blank">{{ title }}</a>
       {% elsif post.internal_link %}
-        <a class="archive__item-title-text" href="{{base_path}}{{ post.internal_link }}">{{ title }}</a>
+        <a class="archive__item-title-text" href="{{base_path}}{{ post.internal_link }}" target="_blank">{{ title }}</a>
       {% else %}
         <span class="archive__item-title-text">{{ title }}</span>
       {% endif %}
@@ -35,7 +35,7 @@
       <p class="archive__item-citation">Published in <i>{{ post.citation }}</i></p>
     {% endif %}
     {% if post.arxiv %}
-      <a href="https://arxiv.org/abs/{{ post.arxiv }}">arxiv</a>
+      <a href="https://arxiv.org/abs/{{ post.arxiv }}" target="_blank">arxiv</a>
     {% endif %}
 
 

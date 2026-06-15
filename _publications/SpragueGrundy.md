@@ -1,7 +1,7 @@
 ---
 title: "Impartial Games and the Sprague-Grundy Theorem"
 collection: publications
-category: survey
+category: notes
 date: "2022-12-01"
 link: "/files/CombinatorialGameTheory.pdf"
 ---
