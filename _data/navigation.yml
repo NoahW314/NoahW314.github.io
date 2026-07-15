@@ -14,5 +14,5 @@ main:
   - title: "CV"
     url: /files/Noah_Walker_CV.pdf
 
-  # - title: "Other"
-  #   url: /other/
+  - title: "Other"
+    url: /other/
