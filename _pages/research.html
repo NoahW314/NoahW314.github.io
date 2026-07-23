@@ -7,8 +7,6 @@ author_profile: false
 
 {% include base_path %}
 
-<h1 class="research-header">Papers</h1>
-
 <!-- New style rendering if publication categories are defined -->
 {% for category in site.publication_category  %}
   {% assign title_shown = false %}
@@ -24,30 +22,6 @@ author_profile: false
   {% endfor %}
 {% endfor %}
 
-<h1 class="research-header">Talks</h1>
-
-{% if site.talk_category %}
-  {% for category in site.talk_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.talks reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% if category[1].title == "" %}
-        {% assign title_shown = true %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single-talk.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.talks reversed %}
-    {% include archive-single-talk.html %}
-  {% endfor %}
-{% endif %}
 
 
 

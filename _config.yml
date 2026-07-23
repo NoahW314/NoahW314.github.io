@@ -40,9 +40,7 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   articles:
-    title: 'Journal Articles'    
-  survey:
-    title: 'Survey Papers'
+    title: 'Publications'
   notes:
     title: 'Notes'
 
