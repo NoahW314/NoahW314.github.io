@@ -31,6 +31,7 @@ My interest in fuzzy logic is from the mathematical side.
 In particular, I like to think about fuzzy logics induced by t-norms and how various properties of the t-norm (e.g. continuity, zero divisors) affect the properties of the fuzzy logic.
 I've written a [paper](https://www.oldcitypublishing.com/journals/mvlsc-home/mvlsc-issue-contents/mvlsc-volume-42-number-5-6-2024/mvlsc-42-5-6-p-425-438/){:target="_blank"} that addresses how properties of the t-norm influence a fuzzy logic's ability to adequately resolve the Sorites paradox.
 As noted above, I've formalized this paper and other facts about [t-norms in Lean](https://github.com/NoahW314/Lean-Tnorms){:target="_blank}.
+I'm currently mentoring two students in DRPs on fuzzy logic.
 
 ## Combinatorial Game Theory
 
